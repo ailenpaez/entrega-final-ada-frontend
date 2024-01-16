@@ -1,4 +1,4 @@
-## Introducción a la Programación Frontend - Proyecto Final ## 
+# Introducción a la Programación Frontend - Proyecto Final # 
 # ⚙️Consigna #
 Para el proyecto final vas a realizar una página web. Este deberá mostrar un listado
 de personajes de la serie Rick and Morty.
