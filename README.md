@@ -1,6 +1,6 @@
 # Introducción a la Programación Frontend # 
 # Proyecto Final # 
-# ⚙️Consigna #
+## ⚙️Consigna ##
 Para el proyecto final vas a realizar una página web. Este deberá mostrar un listado
 de personajes de la serie Rick and Morty.
 Para esto utilizarás una API REST con datos reales, realizarás consultas a la misma
@@ -8,14 +8,14 @@ pasándole distintos parámetros que permitan paginar la búsqueda y mostrarás 
 datos obtenidos como respuesta.
 **👀 Ejemplo**
 Puedes ver un ejemplo funcional del proyecto siguiendo este link.
-# 👍 Criterios de aceptación #
+## 👍 Criterios de aceptación ##
 Los requisitos mínimos para que el proyecto sea considerado para la entrega son:
 * Debe respetar el diseño “general” dado. Pueden modificarse a gusto colores,
 fondo, fuentes e íconos.
 * Debe ser responsive
 * Debe cumplir con las funcionalidades principales listadas en la sección
 siguiente
-# 🎛 Funcionalidades principales #
+## 🎛 Funcionalidades principales ##
 * Se debe poder realizar mostrar un listado de personajes de la serie
 * Se debe poder ver la siguiente información de cada personaje:
 - Nombre
@@ -38,19 +38,19 @@ https://rickandmortyapi.com/documentation/#get-all-characters
 - Se deben deshabilitar los botones correspondientes cuando no puedan
 ser utilizados (por ejemplo, si se está en la última página, no se debe
 poder utilizar el botón de ir a la última página ni el de avanzar página)
-# 💪 Desafíos extra (opcionales) #
+## 💪 Desafíos extra (opcionales) ##
 * Agregar la cantidad de páginas y la página actual en el paginado
 * Agregar la posibilidad de ir a una página específica
 * Agregar la funcionalidad del botón “Ver más” donde muestre la información
 específica del personaje sobre el que se hizo click:
 https://rickandmortyapi.com/documentation/#get-a-single-character
-# 📝 Criterios de evaluación #
+## 📝 Criterios de evaluación ##
 * Aprobado
 - Respeta la consigna
 - Respeta el diseño dado
 - Respeta el funcionamiento
 - Responsive funciona correctamente
-# 🧰 API #
+## 🧰 API ##
 La API que vamos a utilizar para este proyecto es la de Ricky and Morty.
 * Obtener el listado de personajes
 * Obtener un personaje específico
