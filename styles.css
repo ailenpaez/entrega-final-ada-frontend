@@ -1,0 +1,110 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6a0572;
+  color: #2ba80c;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 2px auto;
+  background-color: #f0e1f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 1px auto;
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 7vw;
+  text-align: center;
+  color: #37043b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.filters {
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  top: 0; 
+  right: 0;
+  margin: 20px;
+  text-align: right;
+  position: static;
+  right: 0;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button,
+select,
+input {
+  font-family: "Ubuntu", sans-serif;
+  margin: 5px;
+  padding: 8px;
+  font-size: 12px;
+  background-color: #6a0572;
+  color: #f0e1f7;
+  border: #2ba80c;
+  cursor: auto;
+}
+
+button:disabled {
+  background-color: #d6b2ff;
+  cursor: not-allowed;
+}
+
+#characterList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.character {
+  width: 98%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #f0e1f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.character img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px; /* separa img de descrp */
+}
+
+.character:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+#charactersList {
+  position: relative; 
+}
+#charactersPerPageContainer {
+  font-family: "Ubuntu", sans-serif;
+  color: #86088d;
+  width: 300px; 
+  text-align: left; 
+  position: static; 
+  top: 0; 
+  right: 0; /*container derecho*/
+}
+
+footer {
+  background-color: #240227;
+  color: #ec67f8;
+  margin: 1px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 2vw;
+}
