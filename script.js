@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Status: ${character.status}</p>
                 <p>Origin: ${character.origin.name}</p>
                 <p>Location: ${character.location.name}</p>
-                <button> SHOW MORE </button>
+                <button> SHOW MORE </button> 
             `;
       characterList.appendChild(characterDiv);
     });
